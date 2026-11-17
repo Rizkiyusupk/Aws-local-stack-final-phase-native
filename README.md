@@ -88,19 +88,19 @@ dan yang kedua yaitu ansible
 k8s/
 ├── ansible.cfg
 ├── inventory
-├── playbook-allow-port.yaml
-├── playbook-ip.yaml
-├── playbook-install-java-baremetal.yaml
-├── playbook-install-jenkins-baremetal.yaml
-├── playbook-install-terraform-bare-metal.yaml
-├── playbook-install-kubectl-baremetal.yaml
-├── playbook-join.yaml
-├── playbook-kubernetes.yaml
-├── playbook-pkg.yaml
-├── playbook-swap.yaml
-├── playbook-config.yaml
-├── observ.yaml
-├── observ_2.yaml
+├── playbook-allow-port-native.yaml
+├── playbook-ip-native.yaml
+├── playbook-install-java-baremetal-native.yaml
+├── playbook-install-jenkins-baremetal-native.yaml
+├── playbook-install-terraform-bare-metal-native.yaml
+├── playbook-install-kubectl-baremetal-native.yaml
+├── playbook-join-native.yaml
+├── playbook-kubernetes-native.yaml
+├── playbook-pkg-native.yaml
+├── playbook-swap-native.yaml
+├── playbook-config-native.yaml
+├── observ-native.yaml
+├── observ_2-native.yaml
 ```
 
 yang terakhir di cluster
