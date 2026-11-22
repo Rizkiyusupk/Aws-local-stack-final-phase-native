@@ -104,8 +104,8 @@ k8s/
 ├── playbook-swap-native.yaml
 ├── playbook-config-native.yaml
 ├── playbook-install-terraform-baremetal-native.yaml
-├── -native.yaml
-├── _2-native.yaml
+├── observ-native.yaml
+├── observ_2-native.yaml
 ```
 
 dan yang terakhir yang ketiga di cluster 
@@ -129,5 +129,8 @@ Oke sebelum masuk ke setup saya harapkan anda semua membaca ini,semua kondisi ha
  - **kubernetes.core**
  - **community.general**
  - **ansible.posix**
-
-collection yang dibutuhkan tapi jika install ansible lewat pip ansible berarti semuanya 
+ - **K8s sudah terinstall di node**
+ - **Java,Jenkins,Terraform,Kubectl harus terinstall di laptop 2**
+ - **Local Stack terinstall di laptop 2**
+   
+collection yang dibutuhkan tapi jika install ansible lewat pip ansible lalu untuk localstack sudah harus terinstall di laptop 2,bisa dibaca ke semuanya disini [phase1](https://rizkiyusupk.github.io/devops/kubernetes/linux/server/iac/infrastructure/kvm/),[phase2](https://rizkiyusupk.github.io/devops/kubernetes/linux/server/iac/infrastructure/observ-tools/),[aws1](https://rizkiyusupk.github.io/devops/clouds/linux/server/iac/infrastructure/aws1/),
